@@ -1,0 +1,1 @@
+{"ast":null,"code":"export default Home;","map":{"version":3,"sources":["C:/Users/Aluno/Pictures/criar-site-next-integrar-icone/pages/index.js"],"names":["Home"],"mappings":"AACA,eAAeA,IAAf","sourcesContent":["\r\nexport default Home;\r\n"]},"metadata":{},"sourceType":"module"}
