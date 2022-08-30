@@ -53,7 +53,7 @@ function telaMenu() {
                         
                         <div class="col-lg-4">
                             <div className="rounded-circle circulo centralizar">
-                            <FontAwesomeIcon icon="ban" />
+                            <a href="/castracao"><FontAwesomeIcon className='icon' icon="ban" /></a>
                             </div>
                             <style>{`.texto{padding-top: 20px; padding-bottom: 80px; color: #000; font-weight: 500; font-size: 2rem;}`}</style>
                             <NavLink href="/denuncias" className="texto">Denúncias</NavLink>
@@ -65,7 +65,7 @@ function telaMenu() {
                              <a href="/castracao"><FontAwesomeIcon className='icon' icon="calendar"/></a>   
                             </div>
                             <style>{`.texto{padding-top: 20px; padding-bottom: 80px; color: #000; font-weight: 500; font-size: 2rem; }`}</style>
-                            <h2 className='mt-4 mb-4'>Castração</h2>
+                            <NavLink href="/castracao" className="texto">Castração</NavLink>
                         </div>
 
 
@@ -73,7 +73,7 @@ function telaMenu() {
                             <div className="rounded-circle circulo centralizar">
                                 <FontAwesomeIcon icon="dog" />
                             </div>
-                            <h2 className='mt-4 mb-4'>Doação</h2>
+                            <NavLink href="/doacao" className="texto">Doação</NavLink>
                         </div>
 
                         

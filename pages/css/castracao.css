@@ -16,11 +16,7 @@
 }
 
 .div-info{
- 
-  margin-right: 1%;
-  margin-left: 1%;
-  display: flex;
-  padding: 5%;
+ padding: 5%;
   border-radius: 1rem;
 
 }
@@ -29,9 +25,26 @@
   list-style-type: none;
   padding: 0;
   margin: 0;
+
+  text-align: center;
 }
 .info li{
   margin: 5px;
+}
+
+.confirm-button{
+  background-color: rgb(29, 107, 95);
+  color: white;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  margin: 10px;
+}
+.confirm-button:hover{
+  background-color: rgba(121, 204, 192, 0.924);
+  color: black;
 }
 
 input{
@@ -47,6 +60,7 @@ input{
   border-radius: 10px;
   border: none;
   outline: none;
+
 }
 
 input:focus{
